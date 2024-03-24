@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20240324155937"
+  },
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "100",
+      "fieldValidateRulesMinlength": "3"
+    },
+    {
+      "fieldName": "tipo",
+      "fieldType": "TipoProduto",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "TESOURO,CDB,FUNDO,CRI,CRA,DEBENTURE,ACAO,FII,ETF,BDR,COE,PGBL"
+    }
+  ],
+  "name": "Produto",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

@@ -50,6 +50,7 @@ public class CacheConfiguration {
             createCache(cm, br.com.meucodigoagil.minhapp.domain.User.class.getName());
             createCache(cm, br.com.meucodigoagil.minhapp.domain.Authority.class.getName());
             createCache(cm, br.com.meucodigoagil.minhapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.com.meucodigoagil.minhapp.domain.Produto.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
